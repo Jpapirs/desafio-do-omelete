@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+        background-color:hsl(30, 54%, 90%);
+        font-family:'Outfit' ;
+        line-height: 1.4em;
+}
+h1{
+    font-family:'Young Serif';
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+h2{
+    font-family:'Young Serif';
+    color:hsl(14, 45%, 36%) ;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+ul{
+    list-style-position: inside;
+}
+ul li::marker{
+    color: hsl(14, 45%, 36%);
+}
+ol{
+    list-style-position: inside;
+}
+ol li::marker{
+    color:hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+main img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 800px;
+    margin:auto;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 30px;
+}
+article > aside{
+    background-color:hsla(332, 51%, 32%, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+aside > h3{
+    padding-bottom: 10px;
+}
+.instruçoes > p{
+    padding-bottom: 5px;
+
+}
+footer.atribuiçao{
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer.atribuiçao > a{
+    text-decoration: none;
+}
+footer.atribuiçao > a:hover{
+    color: hsl(14, 45%, 36%);
+}
+
